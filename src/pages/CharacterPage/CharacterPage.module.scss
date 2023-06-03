@@ -1,0 +1,60 @@
+.container {
+    color: #fff;
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;  
+    padding-top: 5rem;
+    width: 300px;
+    .name{
+        font-size: 1.7rem;
+        color: #05eb93;
+        margin: .5rem 0;
+        text-align: center;
+    }
+    .status{
+        width: 100%;
+        
+        text-align: center;
+        color: #fdfafa;
+        padding: .3rem 0 ;
+        font-size: 1.2rem;
+        border-radius: .4rem;
+        margin-bottom: .5rem;
+    }
+    span{
+        font-weight: 700;
+        margin-right: .5rem;
+        text-align: start;
+    }
+}
+@media (max-width:360px) {
+    .container{
+        font-size: 2rem;
+    }
+    .container:nth-child(1) img{
+        width: 100%;     
+    }
+    .container:nth-child(1) {
+       padding: 0 1rem;
+        width: 100%;   
+    } 
+}
+@media (min-width:361px) and (max-width:414px) {
+    .container{
+        font-size: 1.5rem;
+    }
+}
+@media (min-width:415px) and (max-width: 576px) {
+    .container{
+        font-size: 1.8rem;
+    }
+}
+@media (min-width:577px) {
+    .container{
+        font-size: 1rem;
+    }
+}
+
+
+
